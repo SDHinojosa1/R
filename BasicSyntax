@@ -1,0 +1,7 @@
+## CSV Import
+data <- read.csv("input.csv")
+print(data)
+
+## Excel Import
+data <- read.xlsx("input.xlsx", sheetIndex = 1)
+print(data)
