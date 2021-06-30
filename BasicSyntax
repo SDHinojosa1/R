@@ -1,7 +1,7 @@
 ## CSV Import
-data <- read.csv("input.csv")
+data <- read.csv("infectionx.csv", header = TRUE)
 print(data)
 
 ## Excel Import
-data <- read.xlsx("input.xlsx", sheetIndex = 1)
+data <- read.xlsx("infectionx.xlsx", sheetIndex = 1)
 print(data)
