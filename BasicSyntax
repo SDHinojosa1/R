@@ -5,3 +5,15 @@ print(data)
 ## Excel Import
 data <- read.xlsx("infectionx.xlsx", sheetIndex = 1)
 print(data)
+
+
+## Basic Functions
+sum(x) -- sum of the elements of x
+prod(x) -- product of the elements of x
+max(x) -- maximum of the elements of x
+min(x) -- minimum of the elements of x
+which.max(x) -- returns the index of the greatest element of x
+which.min(x) -- returns the index of the smallest element of x
+length(x) -- number of elements in x
+mean(x) -- mean of the elements of x
+median(x) -- median of the elements of x
