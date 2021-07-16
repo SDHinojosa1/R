@@ -6,7 +6,6 @@ print(data)
 data <- read.xlsx("infectionx.xlsx", sheetIndex = 1)
 print(data)
 
-
 ## Basic Functions
 sum(x) -- sum of the elements of x
 prod(x) -- product of the elements of x
