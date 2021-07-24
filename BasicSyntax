@@ -16,3 +16,7 @@ which.min(x) -- returns the index of the smallest element of x
 length(x) -- number of elements in x
 mean(x) -- mean of the elements of x
 median(x) -- median of the elements of x
+
+
+## Create Directory and File
+dir.create ("destination_folder")
