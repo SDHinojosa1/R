@@ -48,5 +48,5 @@ colnames(dataset)
 # Renaming a Variable
 rename(dataset, old_var = new_var)
 
+# Calculate Mean into New Variable
 summarize(datset, mean_var = mean(var))
-
