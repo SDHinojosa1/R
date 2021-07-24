@@ -1,12 +1,12 @@
-## CSV Import
+# CSV Import
 data <- read.csv("infectionx.csv", header = TRUE)
 print(data)
 
-## Excel Import
+# Excel Import
 data <- read.xlsx("infectionx.xlsx", sheetIndex = 1)
 print(data)
 
-## Basic Functions
+# Basic Functions
 sum(x) -- sum of the elements of x
 prod(x) -- product of the elements of x
 max(x) -- maximum of the elements of x
@@ -18,7 +18,7 @@ mean(x) -- mean of the elements of x
 median(x) -- median of the elements of x
 
 
-## Create Directory and File
+# Create Directory and File
 dir.create ("destination_folder")
 
 file.create (“new_text_file.txt”) 
@@ -28,3 +28,25 @@ file.create (“new_word_file.docx”)
 file.create (“new_csv_file.csv”) 
 
 file.copy (“new_text_file.txt” , “destination_folder”)
+
+
+## Viewing Data
+
+# head displays columns and first few rows
+head(dataset)
+
+# summary of data
+str(dataset)
+glimpse(dataset)
+
+# list of columns
+colnames(dataset)
+
+
+## Cleaning Data
+
+# Renaming a Variable
+rename(dataset, old_var = new_var)
+
+summarize(datset, mean_var = mean(var))
+
