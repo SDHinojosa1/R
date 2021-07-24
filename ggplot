@@ -7,3 +7,13 @@ ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g))+geom_point
 
 ## Point Plot Colored by Species 
 ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g))+geom_point(aes(color=species))
+
+
+## Colored Point Plot (X,Y) Example 
+ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
+  geom_point()
+  
+## Data Graphs Seperated by cut   
+ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
+  geom_point() +
+  facet_wrap(~cut)
