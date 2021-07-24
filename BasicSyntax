@@ -20,3 +20,11 @@ median(x) -- median of the elements of x
 
 ## Create Directory and File
 dir.create ("destination_folder")
+
+file.create (“new_text_file.txt”) 
+
+file.create (“new_word_file.docx”) 
+
+file.create (“new_csv_file.csv”) 
+
+file.copy (“new_text_file.txt” , “destination_folder”)
