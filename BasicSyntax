@@ -68,3 +68,13 @@ vaccines %>%
 ## Add Column Example
 vaccines %>% 
   mutate(total_vaccines==clinics*2)
+
+# Bias Function
+bias(
+  estimate,
+  parameter = NULL,
+  type = "bias",
+  abs = FALSE,
+  percent = FALSE,
+  unname = FALSE
+)
