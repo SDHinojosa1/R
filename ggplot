@@ -6,10 +6,12 @@ library(ggplot2)
 ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g))+geom_point
 
 ## Example 2
-ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+ggplot(data = penguins) +
+  geom_point(mapping=aes(x = flipper_length_mm, y = body_mass_g))
 
 ## Point Plot Colored by Species 
-ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g))+geom_point(aes(color=species))
+ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
+  geom_point(aes(color=species))
 
 
 ## Colored Point Plot (X,Y) Example 
