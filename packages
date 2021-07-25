@@ -9,4 +9,8 @@ library(tidyverse)
 
 library(lubridate)
 
-
+## Workign with Pipes
+library(dplyr)
+filtered_vaccinetype <- VaccineTypes %>%
+  filter(dose==1) %>%
+  arrange(len)
