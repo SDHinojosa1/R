@@ -4,6 +4,12 @@ install.packages("tidyverse")
 
 install.packages("dplyr")
 
+install.packages("here")
+
+install.packages("skymer")
+
+install.packages("janitor")
+
 ## Libraries
 library(tidyverse)
 
