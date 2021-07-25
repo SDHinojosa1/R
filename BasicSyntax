@@ -50,3 +50,14 @@ rename(dataset, old_var = new_var)
 
 # Calculate Mean into New Variable
 summarize(datset, mean_var = mean(var))
+
+
+# Group Examples
+vaccines %>% group_by(clinic) %>%
+  drop_na() %>%
+  summarize(mean_patients==mean(patients_per_day))
+  
+vaccines %>% group_by(clinic) %>%
+  drop_na() %>%
+  summarize(max_patients==max(patients_per_day))
+
