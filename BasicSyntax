@@ -63,4 +63,8 @@ vaccines %>% group_by(clinic) %>%
 
 ## Filter Example
 vaccines %>% 
-  filter(clinic=="McAllen"))
+  filter(clinic=="McAllen")
+  
+## Add Column Example
+vaccines %>% 
+  mutate(total_vaccines==clinics*2)
