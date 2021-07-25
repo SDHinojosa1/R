@@ -14,3 +14,9 @@ library(dplyr)
 filtered_vaccinetype <- VaccineTypes %>%
   filter(dose==1) %>%
   arrange(len)
+
+library(dplyr)
+filtered_vaccinetype <- VaccineTypes %>%
+  filter(dose==1) %>%
+  group_by(location) %>%
+  arrange(len)
