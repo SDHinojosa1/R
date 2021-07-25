@@ -6,7 +6,7 @@ install.packages("dplyr")
 
 install.packages("here")
 
-install.packages("skymer")
+install.packages("skimr")
 
 install.packages("janitor")
 
