@@ -61,3 +61,6 @@ vaccines %>% group_by(clinic) %>%
   drop_na() %>%
   summarize(max_patients==max(patients_per_day))
 
+## Filter Example
+vaccines %>% 
+  filter(clinic=="McAllen"))
