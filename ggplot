@@ -37,6 +37,17 @@ ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
 ## Smooth Line Example
 ggplot(data=penguins)+
   geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g))
+  
+## Lowess Smoothing Example
+ggplot(data, aes(x=, y=))+ 
+  geom_point() +       
+  geom_smooth(method="loess")
+  
+## Gam Smoothing Example
+ggplot(data, aes(x=, y=)) + 
+  geom_point() +        
+  geom_smooth(method="gam", 
+formula = y ~s(x))
 
 ## Bar Chart Example with Color
 ggplot(data=penguins)+
