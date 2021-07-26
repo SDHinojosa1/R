@@ -40,4 +40,4 @@ ggplot(data=penguins)+
 
 ## Bar Chart Example with Color
 ggplot(data=penguins)+
-  geom_bar(mapping=aes(x=species,fill=cut))
+  geom_bar(mapping=aes(x=species,fill=species))
