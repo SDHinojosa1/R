@@ -35,5 +35,9 @@ ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
   facet_wrap(~cut)
 
 ## Smooth Line Example
-ggplot(data=penguins+
+ggplot(data=penguins)+
   geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g))
+
+## Bar Chart Example
+ggplot(data=penguins)+
+  geom_bar(mapping=aes(x=species))
