@@ -52,3 +52,8 @@ formula = y ~s(x))
 ## Bar Chart Example with Color
 ggplot(data=penguins)+
   geom_bar(mapping=aes(x=species,fill=species))
+
+## Add Title
+ggplot(data=penguins)+
+  geom_bar(mapping=aes(x=species,fill=species))+
+  labs(title="Title of Graph Here: This vs That")
