@@ -38,6 +38,6 @@ ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
 ggplot(data=penguins)+
   geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g))
 
-## Bar Chart Example
+## Bar Chart Example with Color
 ggplot(data=penguins)+
-  geom_bar(mapping=aes(x=species))
+  geom_bar(mapping=aes(x=species,fill=cut))
