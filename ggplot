@@ -13,6 +13,10 @@ ggplot(data = penguins) +
 ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
   geom_point(aes(color=species))
 
+## Point Plot Colored Blue 
+ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
+  geom_point(aes(color="blue"))
+
 ## Point Plot Shape and Color by Species 
 ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
   geom_point(aes(color=species,shape=species))
