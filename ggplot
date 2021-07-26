@@ -16,6 +16,10 @@ ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
 ## Point Plot Shape and Color by Species 
 ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
   geom_point(aes(color=species,shape=species))
+  
+## Point Plot Transparency by Species 
+ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) +
+  geom_point(aes(alpha=species))
 
 ## Colored Point Plot (X,Y) Example 
 ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
