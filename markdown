@@ -9,3 +9,8 @@ output: html_document
 This is an R Markdown document example.
 This word is in *italics*.
 This word is in **bold**.
+
+## Example for Code Chunks
+'''{r loading packages}
+
+'''
