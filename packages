@@ -10,6 +10,8 @@ install.packages("skimr")
 
 install.packages("janitor")
 
+install.packages("rmarkdown")
+
 ## Libraries
 library(tidyverse)
 
