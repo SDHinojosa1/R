@@ -7,3 +7,5 @@ output: html_document
 
 ## R Markdown
 This is an R Markdown document example.
+This word is in *italics*.
+This word is in **bold**.
