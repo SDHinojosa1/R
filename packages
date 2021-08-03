@@ -29,7 +29,6 @@ filtered_vaccinetype <- VaccineTypes %>%
   group_by(location) %>%
   arrange(len)
 
-
 ## Anscombe's Quartet Example
 install.packages("Tmisc")
 library(Tmisc)
